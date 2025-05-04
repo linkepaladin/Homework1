@@ -23,9 +23,10 @@ public class Main {
         var workHoursPerEmployee = 8;
         var employeeCount = totalWorkHours / workHoursPerEmployee;
         System.out.println("Всего работников в компании " + employeeCount + " человек");
-        var addedEmployees = employeeCount + 94;
-        var newWorkHoursPerEmployee = totalWorkHours / addedEmployees;
-        System.out.println("Если в компании работает " + addedEmployees + " человек, то всего " + newWorkHoursPerEmployee +
+        var addedEmployees = 94;
+        var newEmployeeCount = employeeCount + addedEmployees;
+        var newWorkHoursPerEmployee = totalWorkHours / newEmployeeCount;
+        System.out.println("Если в компании работает " + newEmployeeCount + " человек, то всего " + newWorkHoursPerEmployee +
         " часов работы может быть поделено между сотрудниками");
     }
 }
